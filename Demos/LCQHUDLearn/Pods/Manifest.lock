@@ -1,0 +1,15 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0.12)
+  - MBProgressHUD (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: a0f913646ef10e5e1e06a6db6a2a0e60e4520aac
+
+COCOAPODS: 1.1.1
