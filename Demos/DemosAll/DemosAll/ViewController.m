@@ -41,7 +41,7 @@
     [self.view addSubview:tableview];
     
     //1.初始化数据源
-    NSArray *array = @[@"Demo0-HitTest",@"Demo1-atomic is not safe",@"Bounds",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--"];
+    NSArray *array = @[@"Demo0-HitTest",@"Demo1-atomic is not safe",@"Bounds",@"--test",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--"];
     self.dataArr = array;
     
 }
