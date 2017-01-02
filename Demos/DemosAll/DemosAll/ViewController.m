@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LCQHitTestViewController.h"
+#import "LittleTestsViewController.h"
 
 
 #define SCREENWIDTH  [UIScreen mainScreen].bounds.size.width
@@ -40,7 +41,7 @@
     [self.view addSubview:tableview];
     
     //1.初始化数据源
-    NSArray *array = @[@"Demo0-HitTest",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--"];
+    NSArray *array = @[@"Demo0-HitTest",@"Demo1-atomic is not safe",@"Bounds",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--",@"--"];
     self.dataArr = array;
     
 }
@@ -70,6 +71,16 @@
         //hitTest
         case 0:{
             LCQHitTestViewController *hitTestVC = [[LCQHitTestViewController alloc] init];
+            [self.navigationController pushViewController:hitTestVC animated:YES];
+            break;
+        }
+        case 1:{
+            LittleTestsViewController *hitTestVC = [[LittleTestsViewController alloc] init];
+            [self.navigationController pushViewController:hitTestVC animated:YES];
+            break;
+        }
+        case 2:{
+            LittleTestsViewController *hitTestVC = [[LittleTestsViewController alloc] init];
             [self.navigationController pushViewController:hitTestVC animated:YES];
             break;
         }

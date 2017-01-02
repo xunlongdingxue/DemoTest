@@ -17,6 +17,7 @@
 		0B39D6D91DEFCFEB00E7DB9E /* LCQHitTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39D6D81DEFCFEB00E7DB9E /* LCQHitTestButton.m */; };
 		0B39D6DC1DEFF23F00E7DB9E /* LCQTestBtnSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39D6DB1DEFF23F00E7DB9E /* LCQTestBtnSubView.m */; };
 		0B39D72F1DF0018900E7DB9E /* LCQTestSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39D72E1DF0018900E7DB9E /* LCQTestSubview.m */; };
+		0B39D7581DF1688B00E7DB9E /* LittleTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B39D7571DF1688B00E7DB9E /* LittleTestsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		0B39D6DB1DEFF23F00E7DB9E /* LCQTestBtnSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQTestBtnSubView.m; sourceTree = "<group>"; };
 		0B39D72D1DF0018900E7DB9E /* LCQTestSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQTestSubview.h; sourceTree = "<group>"; };
 		0B39D72E1DF0018900E7DB9E /* LCQTestSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCQTestSubview.m; sourceTree = "<group>"; };
+		0B39D7561DF1688B00E7DB9E /* LittleTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleTestsViewController.h; sourceTree = "<group>"; };
+		0B39D7571DF1688B00E7DB9E /* LittleTestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleTestsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 				0B39D6C11DEFCE0800E7DB9E /* AppDelegate.m */,
 				0B39D6C31DEFCE0800E7DB9E /* ViewController.h */,
 				0B39D6C41DEFCE0800E7DB9E /* ViewController.m */,
+				0B39D7551DF1685B00E7DB9E /* LittleTests */,
 				0B39D6DD1DEFF7C000E7DB9E /* hitTest */,
 				0B39D6C61DEFCE0800E7DB9E /* Main.storyboard */,
 				0B39D6C91DEFCE0800E7DB9E /* Assets.xcassets */,
@@ -105,6 +109,15 @@
 				0B39D72E1DF0018900E7DB9E /* LCQTestSubview.m */,
 			);
 			name = hitTest;
+			sourceTree = "<group>";
+		};
+		0B39D7551DF1685B00E7DB9E /* LittleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B39D7561DF1688B00E7DB9E /* LittleTestsViewController.h */,
+				0B39D7571DF1688B00E7DB9E /* LittleTestsViewController.m */,
+			);
+			name = LittleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +198,7 @@
 				0B39D6D91DEFCFEB00E7DB9E /* LCQHitTestButton.m in Sources */,
 				0B39D6C21DEFCE0800E7DB9E /* AppDelegate.m in Sources */,
 				0B39D6BF1DEFCE0800E7DB9E /* main.m in Sources */,
+				0B39D7581DF1688B00E7DB9E /* LittleTestsViewController.m in Sources */,
 				0B39D6DC1DEFF23F00E7DB9E /* LCQTestBtnSubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
